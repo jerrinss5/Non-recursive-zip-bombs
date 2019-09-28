@@ -106,6 +106,7 @@ LFHn  = 31 bytes
 ![alt text](Images/11.png)
 
 - DEFLATE stream will next reach the compressed block of kernel, from which it will decompress its data to the file “Y”
+
 ![alt text](Images/12.png)
 - We have finished processing for file ‘Y’
 - For file ‘Z’ the same steps would be repeated but in this case as soon as DEFLATE stream starts its process it would hit the compressed block of kernel and immediately write the uncompressed data to File ‘Z’
