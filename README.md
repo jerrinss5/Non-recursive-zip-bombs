@@ -102,6 +102,7 @@ LFHn  = 31 bytes
 ![alt text](Images/10.png)
 - First filename is “Y” and its compressed size is 1036 bytes ( 1000 bytes kernel + 31 bytes LFHn + 5 byte non-compressed header)
 - DEFLATE stream will first encounter the 5 byte header of non-compressed block which says print/copy the next 31 bytes as it is to file “Y”
+
 ![alt text](Images/11.png)
 
 - DEFLATE stream will next reach the compressed block of kernel, from which it will decompress its data to the file “Y”
