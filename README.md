@@ -38,6 +38,7 @@ Idea: Making many CDHs point to the same single file whose data is kernel.
 This attack doesn’t work across all zip parsers because all of the CDHs point to a single LFH and the metadata it contains can only refer to one of the file names mentioned in the CDH, so there is a mis-match in the file names causing certain parsers to bail out while others continue to process.
 
 Processed:
+
 ![alt text](Images/3.png)
 
 
